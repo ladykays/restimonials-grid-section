@@ -1,9 +1,13 @@
 :root {
   --lightGrayishBlue: #ecf2f8;
   --lightGrayishBlue50: #ecf2f880;
-  --lightGrayishBlue70: rgba(236, 242, 248, 0.702);
+  --lightGrayishBlue70: #ecf2f8b3;
   --lightGray: #cfcfcf;
   --moderateViolet: #7541c8;
+  --veryDarkGrayishBlue: #48556a;
+  --veryDarkGrayishBlue50: #48556a80;
+  --veryDarkGrayishBlue70: #48556ab3;
+  --veryDarkBlackishBlue: #19212e;
 }
 body {
   margin: 0;
@@ -46,7 +50,7 @@ h6 {
 
 .profile {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 80px 3fr;
   grid-template-rows: 1fr 2fr;
   margin-bottom: 20px
 }
@@ -78,6 +82,35 @@ h6 {
   grid-column: span 2
 }
 
+.light-gray {
+  background-color: var(--veryDarkGrayishBlue);
+}
+
+.white {
+  background-color: #ffffff;
+  color: var(--veryDarkGrayishBlue);
+}
+
+/* .white p, .white div {
+  color: var(--veryDarkGrayishBlue70);
+} */
+
+.white div.status {
+  color: var(--veryDarkGrayishBlue50);
+}
+
+.white p {
+  color: var(--veryDarkGrayishBlue70);
+}
+
+.long {
+  grid-area: 1 / 4 / 3 / 5; /* grid-row-start / grid-column-start / grid-row-end / grid-column-end */
+}
+
+.black {
+  background-color: var(--veryDarkBlackishBlue);
+  grid-column: span 2;
+}
 
 
 
@@ -88,4 +121,11 @@ h6 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 }
