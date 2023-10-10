@@ -72,7 +72,7 @@ The area I need to continue working on is:
 
 ## Author
 
-- Website - [N. K. Siokwu](https://github.com/ladykays)
+- Website - [N. K. Siokwu](https://ladykays.github.io/my-react-portfolio/)
 - Frontend Mentor - [@ladykays](https://www.frontendmentor.io/profile/ladykays)
 - Twitter - [N. K. Siokwu](https://www.linkedin.com/in/ndidiamaka-siokwu-67b1a6267/)
 
