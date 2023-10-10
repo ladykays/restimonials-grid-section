@@ -74,7 +74,7 @@ The area I need to continue working on is:
 
 - Website - [N. K. Siokwu](https://ladykays.github.io/my-react-portfolio/)
 - Frontend Mentor - [@ladykays](https://www.frontendmentor.io/profile/ladykays)
-- Twitter - [N. K. Siokwu](https://www.linkedin.com/in/ndidiamaka-siokwu-67b1a6267/)
+- Linkedin - [N. K. Siokwu](https://www.linkedin.com/in/ndidiamaka-siokwu-67b1a6267/)
 
 
 ## Acknowledgments
